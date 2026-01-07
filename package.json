@@ -1,0 +1,11 @@
+{
+  "name": "superenabot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix Backend-server\" \"npm run dev --prefix Frontend-client\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
