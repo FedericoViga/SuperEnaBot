@@ -84,4 +84,3 @@ Nella repo non metterò gli url dei due siti target dello scraper e anche se mi 
 </td>
 </tr>
 </table>
-"# SuperEnaBot" 
