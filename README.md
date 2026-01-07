@@ -1,8 +1,9 @@
 <h1 style="text-align:center;">SuperEnaBot</h1>
 
-SuperEnaBot è una piccola single page application fullstack con backend (Node.js e Express) e frontend (React + Vite) in un'unica soluzione.
-È un'applicazione per generare i sei numeri + numero SuperStar da giocare alla prossima estrazione del SuperEnalotto che utilizza un algoritmo molto semplice pe calcolarli in base ai numeri più frequenti e ai ritardatari.
-I numeri vengono ottenuti tramite scraping con Puppeteer da due specfici siti web. Una volta ottenuti vengono scritti in un file json e inviati al frontend al mount del componente React nella pagina.
+SuperEnaBot è una piccola single page application fullstack con backend (Node.js e Express) e frontend (React + Vite) in un'unica soluzione.  
+È un'applicazione per generare i sei numeri + numero SuperStar da giocare alla prossima estrazione del SuperEnalotto che utilizza un algoritmo molto semplice pe calcolarli in base ai numeri più frequenti e ai ritardatari.  
+I numeri vengono ottenuti tramite scraping con Puppeteer da due specfici siti web.  
+Una volta ottenuti vengono scritti in un file json e inviati al frontend al mount del componente React nella pagina.<br>
 I numeri possono anche essere inviati con un bot Telegram al click di un button dell'utente o direttamente con un comando dall'app Telegram senza passare dal frontend.
 <br>
 
