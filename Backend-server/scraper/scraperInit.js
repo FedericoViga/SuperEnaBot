@@ -92,10 +92,6 @@ function getLuckyNumbers(fetchedNumbers) {
     return (numbers += `${currentNumber.number} `);
   }, "");
 
-  // stringhe finali formattate 6 numeri + numero SuperStar
-  /* console.log(`\x1b[33m${luckyNumbers.trim()}\x1b[0m`);
-  console.log("Numero SuperStar:", `\x1b[33m${superStarNumber}\x1b[0m`); */
-
   const formattedLuckyNumbers = [[luckyNumbers.trim()], superStarNumber];
 
   return formattedLuckyNumbers;

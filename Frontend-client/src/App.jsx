@@ -41,7 +41,8 @@ function App() {
         value: [sixNumbers, superStar],
       } = fetchedNumbers;
       setLuckyNumbers(sixNumbers);
-      setsuperStarNumber(superStar);
+      const matchedSuperstar = superStar.match(/\d+/);
+      setsuperStarNumber(matchedSuperstar[0]);
 
       setIsLoading(false);
     }
