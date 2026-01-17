@@ -120,7 +120,7 @@ function App() {
                 luckyNumbers[0].split(" ").map((element, i) => {
                   return (
                     <p
-                      className="rounded-full p-4 border-2 border-amber-100 text-4xl text-center"
+                      className="rounded-full p-4 border-2 border-amber-100 text-4xl text-center min-w-20 min-h-20 "
                       key={i}
                     >
                       {element}
